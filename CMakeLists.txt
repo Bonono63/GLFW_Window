@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(AssemblyRequired VERSION 1.0)
+project(GLFWBoilerPlate VERSION 1.0)
 
 set(CMAKE_BUILD_TYPE=Debug)
 
@@ -22,6 +22,6 @@ include_directories(
 	"include/"
 	)
 
-add_executable(Ass src/main.cpp ${GLAD_GL})
+add_executable(BoilerPlate src/main.cpp ${GLAD_GL})
 
-target_link_libraries(Ass ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES} m)
+target_link_libraries(BoilerPlate ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES} m)
