@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bon/glfw_boiler_plate
+CMAKE_SOURCE_DIR = /home/bon/GLFW_Window
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bon/glfw_boiler_plate
+CMAKE_BINARY_DIR = /home/bon/GLFW_Window
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bon/glfw_boiler_plate && $(CMAKE_COMMAND) -E cmake_progress_start /home/bon/glfw_boiler_plate/CMakeFiles /home/bon/glfw_boiler_plate/glfw-3.3.8//CMakeFiles/progress.marks
-	cd /home/bon/glfw_boiler_plate && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bon/glfw_boiler_plate/CMakeFiles 0
+	cd /home/bon/GLFW_Window && $(CMAKE_COMMAND) -E cmake_progress_start /home/bon/GLFW_Window/CMakeFiles /home/bon/GLFW_Window/glfw-3.3.8//CMakeFiles/progress.marks
+	cd /home/bon/GLFW_Window && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bon/GLFW_Window/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bon/glfw_boiler_plate && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/clean
+	cd /home/bon/GLFW_Window && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bon/glfw_boiler_plate && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/preinstall
+	cd /home/bon/GLFW_Window && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bon/glfw_boiler_plate && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/preinstall
+	cd /home/bon/GLFW_Window && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw-3.3.8/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bon/glfw_boiler_plate && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bon/GLFW_Window && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bon/glfw_boiler_plate && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bon/GLFW_Window && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

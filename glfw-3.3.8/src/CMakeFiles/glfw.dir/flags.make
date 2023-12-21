@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS
 
-C_INCLUDES = -I/home/bon/glfw_boiler_plate/glfw-3.3.8/include -I/home/bon/glfw_boiler_plate/glfw-3.3.8/src
+C_INCLUDES = -I/home/bon/GLFW_Window/glfw-3.3.8/include -I/home/bon/GLFW_Window/glfw-3.3.8/src
 
 C_FLAGS = -std=gnu99 -fPIC -Wall -fvisibility=hidden
 

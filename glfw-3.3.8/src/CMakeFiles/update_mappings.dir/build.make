@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bon/glfw_boiler_plate
+CMAKE_SOURCE_DIR = /home/bon/GLFW_Window
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bon/glfw_boiler_plate
+CMAKE_BINARY_DIR = /home/bon/GLFW_Window
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include glfw-3.3.8/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw-3.3.8/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw-3.3.8/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/bon/glfw_boiler_plate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/bon/glfw_boiler_plate/glfw-3.3.8/src && /usr/bin/cmake -P /home/bon/glfw_boiler_plate/glfw-3.3.8/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/bon/GLFW_Window/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/bon/GLFW_Window/glfw-3.3.8/src && /usr/bin/cmake -P /home/bon/GLFW_Window/glfw-3.3.8/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: glfw-3.3.8/src/CMakeFiles/update_mappings
 update_mappings: glfw-3.3.8/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ glfw-3.3.8/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw-3.3.8/src/CMakeFiles/update_mappings.dir/build
 
 glfw-3.3.8/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/bon/glfw_boiler_plate/glfw-3.3.8/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/bon/GLFW_Window/glfw-3.3.8/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.8/src/CMakeFiles/update_mappings.dir/clean
 
 glfw-3.3.8/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/bon/glfw_boiler_plate && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bon/glfw_boiler_plate /home/bon/glfw_boiler_plate/glfw-3.3.8/src /home/bon/glfw_boiler_plate /home/bon/glfw_boiler_plate/glfw-3.3.8/src /home/bon/glfw_boiler_plate/glfw-3.3.8/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bon/GLFW_Window && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bon/GLFW_Window /home/bon/GLFW_Window/glfw-3.3.8/src /home/bon/GLFW_Window /home/bon/GLFW_Window/glfw-3.3.8/src /home/bon/GLFW_Window/glfw-3.3.8/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.3.8/src/CMakeFiles/update_mappings.dir/depend
 

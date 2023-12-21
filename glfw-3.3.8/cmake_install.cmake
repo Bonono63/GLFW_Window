@@ -1,4 +1,4 @@
-# Install script for directory: /home/bon/glfw_boiler_plate/glfw-3.3.8
+# Install script for directory: /home/bon/GLFW_Window/glfw-3.3.8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bon/glfw_boiler_plate/glfw-3.3.8/src/cmake_install.cmake")
+  include("/home/bon/GLFW_Window/glfw-3.3.8/src/cmake_install.cmake")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bon/glfw_boiler_plate/glfw-3.3.8/src
+# Install script for directory: /home/bon/GLFW_Window/glfw-3.3.8/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
